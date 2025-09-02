@@ -30,6 +30,44 @@ Each training and test example is assigned to one of the following labels:<br>
 > Note: The dataset is **not included in this repository**. The notebook downloads the dataset automatically from [this website](https://www.cs.toronto.edu/~kriz/cifar.html).
 
 ## Result
+<table>
+  <tr>
+    <th>model</th>
+    <th>best_val_loss</th>
+    <th>best_val_acc</th>
+    <th>best_val_f1</th>
+    <th>test_loss</th>
+    <th>test_acc</th>
+    <th>test_f1</th>
+  </tr>
+  <tr>
+    <td>SimpleCNN</td>
+    <td>1.034394</td>
+    <td>0.6363</td>
+    <td>0.632308</td>
+    <td>1.045021</td>
+    <td>0.6320</td>
+    <td>0.628868</td>
+  </tr>
+  <tr>
+    <td>Resnet-18</td>
+    <td>1.556845</td>
+    <td>0.4742</td>
+    <td>0.470720</td>
+    <td>1.583386</td>
+    <td>0.4583</td>
+    <td>0.455407</td>
+  </tr>
+  <tr>
+    <td>CustomCNN</td>
+    <td>1.402597</td>
+    <td>0.5012</td>
+    <td>0.498017</td>
+    <td>1.393166</td>
+    <td>0.5026</td>
+    <td>0.499033</td>
+  </tr>
+</table>
 
 
 ## Quick Start
