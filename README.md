@@ -1,4 +1,4 @@
-# CIFAR Classification Task with simple CNN and pretrained model with PyTorch
+# CIFAR Classification Task with simple CNN, custom CNN, and Resnet-18 with PyTorch
 ## Overview
 This repository contains PyTorch implementations of **Convolutional Neural Networks (CNNs)** and **ResNet-18** for image classification on the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset.  
 The project compares different models:
